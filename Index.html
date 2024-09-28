@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laporan Kas Departemen - CV Multazam Development</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://joss.co.id/data/uploads/2023/07/Wonosobo-Telaga-Menjer.webp'); /* Ganti dengan URL gambar latar belakang yang Anda inginkan */
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+        h2 {
+            font-size: 2.5em; /* Ukuran font lebih besar */
+            margin-bottom: 40px;
+        }
+        .welcome-message {
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+        /* Untuk tombol Laporan Kas Pusat */
+        .central-button {
+            margin-bottom: 40px;
+        }
+        .central-button button {
+            padding: 20px 40px;
+            font-size: 18px;
+            cursor: pointer;
+            background-color: #f44336;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        .central-button button:hover {
+            background-color: #d32f2f;
+            transform: scale(1.05);
+        }
+        .button-container {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 20px;
+        }
+        .button-container button {
+            padding: 15px 30px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        .button-container button:hover {
+            background-color: #45a049;
+            transform: scale(1.05);
+        }
+        /* Pesan pemberitahuan di bagian bawah halaman */
+        .background-info {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.6);
+            border-radius: 10px;
+            color: white;
+            font-size: 14px;
+        }
+        .background-info a {
+            color: white;
+            text-decoration: none;
+        }
+        .background-info a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="welcome-message">
+        <h1>Selamat Datang di Sistem Laporan Kas Departemen</h1>
+        <h2>CV MULTAZAM DEVELOPMENT</h2>
+    </div>
+
+    <!-- Tombol Laporan Kas Pusat di pusat halaman -->
+    <div class="central-button">
+        <button onclick="window.open('https://docs.google.com/spreadsheets/d/1c7UhJmh8-409O85k_fbzIT_5aFcgn-g6DWIDuPl78fc/edit?gid=770455519#gid=770455519&range=C1', '_blank')">LAPORAN KAS PUSAT</button>
+    </div>
+
+    <!-- Grid untuk tombol lainnya -->
+    <div class="button-container">
+        <button onclick="window.open('https://docs.google.com/spreadsheets/d/1TdFPxVRMZVN5Xh74jYyrd2pJyBh4nRpEhZ-ddBzBh3E/edit?gid=0#gid=0&range=B3', '_blank')">The Heaven Glamping</button>
+        <button onclick="window.open('https://docs.google.com/spreadsheets/d/1mfQdTN94EExqogLpjSssiHS-gDQervQ0PEPvDzIju1Q/edit?gid=0#gid=0&range=B3', '_blank')">The Heaven Resto</button>
+        <button onclick="window.open('https://docs.google.com/spreadsheets/d/1xh9YYSl7WmJd7QuWJUllzghSWcHMgwLC7HWs2mHzWEc/edit?gid=0#gid=0&range=B3', '_blank')">The Heaven Laundry</button>
+        <button onclick="window.open('https://docs.google.com/spreadsheets/d/1Mf2ECtHmwPEcHaOkFQyHfClNPEOHnYlZzLDe9fp-r9Q/edit?gid=0#gid=0&range=B3', '_blank')">The Warung</button>
+        <button onclick="window.open('https://docs.google.com/spreadsheets/d/1Zktl654b2EMm9Gt2dQNGywRVBfW6BsWesnGceeI4Rog/edit?gid=0#gid=0&range=B3', '_blank')">Nagari Resto</button>
+        <button onclick="window.open('https://docs.google.com/spreadsheets/d/1ScVyJrBRHmpB_iaJeOc4SpJk7K57XvooylAhfVezUC4/edit?gid=0#gid=0&range=B3', '_blank')">Cafe Kahyangan</button>
+        <button onclick="window.open('https://docs.google.com/spreadsheets/d/1aMwy5rXjrgEHYTDjVH9EoRcMGRah18DZGHfqmu2_EUc/edit?gid=0#gid=0&range=B3', '_blank')">Wisata Kahyangan</button>
+        <button onclick="window.open('https://docs.google.com/spreadsheets/d/1_bmrIkULPaUwavzQm_1hnCdzHpSW3rzgiDNJsNdCQd0/edit?gid=0#gid=0&range=B3', '_blank')">Textile Wonosobo</button>
+        <button onclick="window.open('https://docs.google.com/spreadsheets/d/1Rd6Ukh6iwqSipiolwPZimvaMK7kZkQHzI6Bk6gLEzjE/edit?gid=0#gid=0&range=B3', '_blank')">Textile Kertek</button>
+        <button onclick="window.open('https://docs.google.com/spreadsheets/d/1-TjvfgTlXoMIoKDwlqXt_XfHPYNFSzwsrdrnmHj6zhA/edit?gid=0#gid=0&range=B3', '_blank')">Textile Banjar</button>
+        <button onclick="window.open('https://docs.google.com/spreadsheets/d/1eJ0Mp7ynjMYcVU3Ml_ialiO_LSa--9bo6WrjUCVsuLA/edit?gid=0#gid=0&range=B3', '_blank')">Textile Gombong</button>
+        <button onclick="window.open('https://docs.google.com/spreadsheets/d/1rbPpgAKUrRvAwD55oXAf9Y1gJRGptOyYku6FsOhFhgM/edit?gid=0#gid=0&range=B3', '_blank')">Distro Helm Wonosobo</button>
+        <button onclick="window.open('https://docs.google.com/spreadsheets/d/1Rl3TrAu1qCq4KZ9krDQeDUuZmL48MURimP6wWpJWa9c/edit?gid=0#gid=0&range=B3', '_blank')">Distro Helm Temanggung</button>
+        <button onclick="window.open('https://docs.google.com/spreadsheets/d/1owbWsRHwKykAZwCRJoAcngv_GstemlCzMP-4wMrUOK8/edit?gid=0#gid=0&range=B3', '_blank')">Distro Helm Kertek</button>
+        <button onclick="window.open('https://docs.google.com/spreadsheets/d/1TYSFnMRpiAsIDrdC6TBxePZRlWRs5Vff2aNd47VLl6g/edit?gid=0#gid=0&range=B3', '_blank')">Distro Helm Gombong</button>
+    </div>
+
+    <div class="background-info">
+        <a href="https://www.instagram.com/nidunnahrub/" target="_blank">hans2024</a>
+    </div>
+
+</body>
+</html>
